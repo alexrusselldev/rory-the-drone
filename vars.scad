@@ -16,6 +16,9 @@ centralBracketDepth = armBoxWidth / 2;
 centralBracketTopPlateSize = 100;
 centralBracketTopPlateThickness = 1;
 
+centralBracketBottomPlateSize = 50;
+centralBracketBottomPlateThickness = 1;
+
 // landing gear
 landingGearSpacing = 175;
 
