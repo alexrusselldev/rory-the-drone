@@ -1,4 +1,4 @@
-include<../vars.scad>
+include<../../vars.scad>
 
 module landingGearBracket() {
     translate([(-armBoxWidth / 2) - landingGearBracketWallThickness, (-armBoxWidth / 2) - landingGearBracketSocketWallThickness, (-armBoxWidth / 2) -landingGearBracketSocketWallThickness]) difference(){
