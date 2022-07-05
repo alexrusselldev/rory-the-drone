@@ -1,0 +1,21 @@
+// arm main body
+
+armLength = 500;
+boxWidth = 10;
+boxWallThickness = 1;
+
+module armBoxSection(){
+    translate([-armLength / 2, -boxWidth / 2,  -boxWidth / 2]) difference(){
+        cube([armLength, boxWidth, boxWidth]);
+        translate([-0.5, boxWallThickness, boxWallThickness]) cube([armLength + 1, boxWidth - 2 * boxWallThickness, boxWidth - 2 * boxWallThickness]);
+    };
+};
+
+module armMatingSlot(){
+    translate([-boxWidth / 2, -boxWidth / 2 - 1,  0]) cube([boxWidth, boxWidth + 2, boxWidth]);
+};
+
+difference(){
+    armBoxSection();
+    armMatingSlot();
+};
