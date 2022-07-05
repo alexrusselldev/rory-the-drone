@@ -1,5 +1,5 @@
 // style
-armColor = "#3e4042";
+carbonColor = "#3e4042";
 plaColor = "#ff0000";
 
 

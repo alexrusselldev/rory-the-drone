@@ -4,7 +4,7 @@ include<vars.scad>
 
 module armBoxSection(){
     translate([-armLength / 2, -armBoxWidth / 2,  -armBoxWidth / 2]) difference(){
-        cube([armLength, armBoxWidth, armBoxWidth]);
+        color(carbonColor) cube([armLength, armBoxWidth, armBoxWidth]);
         translate([-0.5, armBoxWallThickness, armBoxWallThickness]) cube([armLength + 1, armBoxWidth - 2 * armBoxWallThickness, armBoxWidth - 2 * armBoxWallThickness]);
     };
 };
