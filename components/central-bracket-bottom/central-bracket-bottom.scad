@@ -1,5 +1,7 @@
 include<../../vars.scad>
 
+// TODO: refactor this mess
+
 module centralBracketBottom(){
     color(plaColor)
     difference() {
