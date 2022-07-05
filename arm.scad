@@ -15,7 +15,13 @@ module armMatingSlot(){
     translate([-boxWidth / 2, -boxWidth / 2 - 1,  0]) cube([boxWidth, boxWidth + 2, boxWidth]);
 };
 
+module armCentralBoltHole(){
+    boltHoleDia = 4;
+    translate([0, 0, -boxWidth / 2 - 0.5]) cylinder(h = boxWallThickness + 1, d1 = boltHoleDia);
+}
+
 difference(){
     armBoxSection();
     armMatingSlot();
+    armCentralBoltHole();
 };
