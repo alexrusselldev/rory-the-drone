@@ -11,5 +11,10 @@ armFixingHoleDia = 4;
 
 // landing gear
 landingGearLegLength = 100;
-landingGearLegWidth = 10;
+landingGearLegDia = 10;
 landingGearLegWallThickness = 0.5;
+
+landingGearFootThickness = 0.5;
+landingGearFootDia = 50;
+landingGearFootSocketHeight = 15;
+landingGearFootSocketWallThickness = 0.5;
