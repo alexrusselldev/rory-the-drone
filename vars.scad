@@ -9,6 +9,16 @@ armBoxWidth = 12.5;
 armBoxWallThickness = 0.5;
 armFixingHoleDia = 4;
 
+// central brackets
+centralBracketWallThickness = 1;
+centralBracketDepth = armBoxWidth / 2;
+
+centralBracketTopPlateSize = 100;
+centralBracketTopPlateThickness = 1;
+
+centralBracketBottomPlateSize = 50;
+centralBracketBottomPlateThickness = 1;
+
 // landing gear
 landingGearSpacing = 175;
 
