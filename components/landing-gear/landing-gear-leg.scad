@@ -1,4 +1,4 @@
-include<../vars.scad>
+include<../../vars.scad>
 
 module landingGearLeg(){
     difference(){    
