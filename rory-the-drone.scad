@@ -1,5 +1,6 @@
+include<vars.scad>
 include<arm.scad>
-// rory-the-drone
+include<./landing-gear/landing-gear.scad>
 
-color("#FF0000") arm();
-rotate([180, 0, 90]) color("#00FF00") arm();
+color(armColor) arm();
+rotate([180, 0, 90]) color(armColor) arm();
