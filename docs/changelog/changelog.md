@@ -1,5 +1,8 @@
 # changelog
 
+### v0.2.1
+- made the legs realistically reproducible in euclidean space
+
 ### v0.2.0
 - central bracket for top and bottom
 
