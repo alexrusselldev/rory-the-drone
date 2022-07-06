@@ -11,6 +11,7 @@ module centralBracket(){
             cube([armBoxWidth, centralBracketPlateSize, centralBracketPlateThickness]);
         };
 
+        // holes for arm mounting points
         translate([0, 20, -1])
         cylinder(h = 22, d = 3);
 
