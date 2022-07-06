@@ -2,6 +2,7 @@ include<vars.scad>
 include<./components/arm/arm.scad>
 include<./components/landing-gear/landing-gear.scad>
 include<./components/central-bracket/central-bracket.scad>
+include<./components/brain-board/brain-board-blank.scad>
 
 arm();
 
@@ -30,3 +31,8 @@ centralBracket();
 
 translate([0, 0, (armBoxWidth / 2) + (centralBracketPlateThickness / 2)])
 centralBracket();
+
+// brain board
+rotate([0, 0, 45])
+translate([0, 0, -(armBoxWidth / 2) - brainBoardSpace])
+brainBoardBlank();

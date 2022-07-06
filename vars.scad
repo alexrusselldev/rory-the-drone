@@ -34,3 +34,8 @@ landingGearFootSocketWallThickness = 0.5;
 landingGearBracketWallThickness = 1;
 landingGearBracketSocketWallThickness = 1;
 landingGearBracketSocketHeight = 15;
+
+// brain board
+brainBoardSize = 150;
+brainBoardThickness = 1;
+brainBoardSpace = 20;
