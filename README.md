@@ -1,5 +1,5 @@
 # rory-the-drone
-## v0.2.1
+## v0.3.0
 
 this is a drone
 
