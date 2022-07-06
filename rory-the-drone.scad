@@ -1,14 +1,14 @@
 include<vars.scad>
 include<./components/arm/arm.scad>
 include<./components/landing-gear/landing-gear.scad>
-include<./components/central-bracket-top/central-bracket-top.scad>
-include<./components/central-bracket-bottom/central-bracket-bottom.scad>
+include<./components/central-bracket/central-bracket.scad>
 
 arm();
 
 rotate([180, 0, 90])
 arm();
 
+// landing gear
 translate([landingGearSpacing, 0, -landingGearLegLength- (armBoxWidth / 2) - landingGearFootThickness - landingGearBracketWallThickness])
 rotate([0, 0, 90])
 landingGear();
@@ -23,10 +23,10 @@ landingGear();
 translate([0, -landingGearSpacing, -landingGearLegLength- (armBoxWidth / 2) - landingGearFootThickness - landingGearBracketWallThickness])
 landingGear();
 
-rotate([0, 0, 45])
-translate([0, 0, (armBoxWidth / 2) + (centralBracketTopPlateThickness / 2)])
-centralBracketTop();
 
-rotate([180, 0, 45])
-translate([0, 0, (armBoxWidth / 2) + (centralBracketBottomPlateThickness / 2)])
-centralBracketBottom();
+// top and bottom central brackets
+translate([0, 0, (armBoxWidth / 2) + (centralBracketTopPlateThickness / 2)])
+centralBracket();
+
+translate([0, 0, (armBoxWidth / 2) + (centralBracketPlateThickness / 2)])
+centralBracket();

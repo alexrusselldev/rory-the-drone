@@ -22,5 +22,18 @@ module arm() {
         armBoxSection();
         armMatingSlot();
         armCentralBoltHole();
+
+        // holes for central bracket mounting hardware
+        translate([0, 20, -10])
+        cylinder(h = armBoxWidth + 20, d = 3);
+
+        translate([0, -20, -10])
+        cylinder(h = armBoxWidth + 20, d = 3);
+
+        translate([20, 0, -10])
+        cylinder(h = armBoxWidth + 20, d = 3);
+
+        translate([-20, 0, -10])
+        cylinder(h = armBoxWidth + 20, d = 3);
     }
 };
