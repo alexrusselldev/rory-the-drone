@@ -4,7 +4,7 @@ include<landing-gear-leg.scad>
 include<landing-gear-foot.scad>
 
 module landingGear(){
-    landingGearLeg();
+    translate([0, 0, landingGearFootThickness]) landingGearLeg();
     landingGearFoot();
     translate([0, 0, landingGearLegLength]) landingGearBracket();
 };
