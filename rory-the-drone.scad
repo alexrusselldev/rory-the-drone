@@ -28,5 +28,5 @@ landingGear();
 translate([0, 0, (armBoxWidth / 2) + (centralBracketTopPlateThickness / 2)])
 centralBracket();
 
-translate([0, 0, (armBoxWidth / 2) + (centralBracketPlateThickness / 2)])
+translate([0, 0, -((armBoxWidth / 2) + (centralBracketPlateThickness / 2))])
 centralBracket();
