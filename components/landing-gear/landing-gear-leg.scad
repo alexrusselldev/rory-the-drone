@@ -6,3 +6,5 @@ module landingGearLeg(){
         translate([0, 0, -0.5]) cylinder(h = landingGearLegLength + 1, d = landingGearLegDia - landingGearLegWallThickness * 2);
     };
 };
+
+landingGearLeg();

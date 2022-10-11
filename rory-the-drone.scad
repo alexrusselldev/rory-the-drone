@@ -1,7 +1,7 @@
 include<vars.scad>
-include<./components/arm/arm.scad>
-include<./components/landing-gear/landing-gear.scad>
-include<./components/central-bracket/central-bracket.scad>
+use<./components/arm/arm.scad>
+use<./components/landing-gear/landing-gear.scad>
+use<./components/central-bracket/central-bracket.scad>
 
 arm();
 

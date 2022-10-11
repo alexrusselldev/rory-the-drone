@@ -37,3 +37,5 @@ module arm() {
         cylinder(h = armBoxWidth + 20, d = 3);
     }
 };
+
+arm();
