@@ -7,3 +7,5 @@ module landingGearFoot(){
         cylinder(h = landingGearFootSocketHeight + 1, d = landingGearLegDia);
     };
 };
+
+landingGearFoot();

@@ -26,4 +26,4 @@ module centralBracket(){
     };
 };
 
-// centralBracket();
+centralBracket();

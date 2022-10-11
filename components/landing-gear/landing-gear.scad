@@ -1,7 +1,7 @@
 include<../../vars.scad>
-include<landing-gear-bracket.scad>
-include<landing-gear-leg.scad>
-include<landing-gear-foot.scad>
+use<landing-gear-bracket.scad>
+use<landing-gear-leg.scad>
+use<landing-gear-foot.scad>
 
 module landingGear(){
     translate([0, 0, landingGearFootThickness])
@@ -13,4 +13,4 @@ module landingGear(){
     landingGearBracket();
 };
 
-// landingGear();
+landingGear();
